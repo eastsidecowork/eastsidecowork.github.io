@@ -1,105 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
-    <meta name="description" content="East Side Cowork : Coworking on the east side of Rochester, NY.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
-    <link rel="stylesheet" media="screen" href="index.css">
-    <title>East Side Cowork - Rochester, NY</title>
-  </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+    <title>
+      East Side Cowork
+    </title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+    rel="stylesheet">
+  
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+  
   <body>
-    <header>
-        <a id="forkme_banner" href="https://docs.google.com/forms/d/1gS4rsY4WxT49fOkC-Ne23XjOkiv7p5dv7DL0iu9XenU/viewform">Interested? Take our Survey!</a>
-      <h1>East Side Cowork</h1>
-      <h2>Coworking on the east side of Rochester, NY</h2>
-    </header>
-    <section>
-      <article>
-        <header>
-          <h1>Welcome</h1>
-        </header>
-        <p>We're building a community of people who live and work
-        around the east side of Rochester, NY. Our mission is to
-        provide a place for individuals and small companies to work
-        and socialize in a shared office space.</p>
-        <p>Support us on Twitter <a href="https://twitter.com/eastsidecowork">@eastsidecowork</a>.</p>
-      </article>
-    </section>
-    <section id="faq">
-      <header>
-        <h1>Questions &amp; Answers</h1>
-      </header>
-      <article>
-        <header>
-          <h1>What is coworking?</h1>
-        </header>
-        <p>Coworking is many things. The most practical aspect is
-        having an office to work in when you otherwise may not have
-        one. From a financial point of view, it is much cheaper to be
-        a member of a coworking space than to rent an office for
-        yourself.</p>
-        <p>It's also about socializing. If you're someone who
-        primarily works at home, a coworking space gives you the
-        opportunity to have the social interaction you normally would
-        have in a typical office.</p>
-        <p> In any case, it provides you a place to go if you need to
-        get out of the house and need a quiet place to work with high
-        speed Internet and free coffee.</p>
-      </article>
-      <article>
-        <header>
-          <h1>Where are you located?</h1>
-        </header>
-        <p>We currently do not have place to work. We are in the
-          process of bootstrapping the business and are looking for
-          people who are interested in coworking in Rochester.</p>
-        <p>Right now we meet up once a week for a coffee. If you're
-        interested in coworking, please check out <a href="#">our
-        calendar</a> and join us for a coffee break.</p>
-        <p>The areas we are interested in setting up an office is
-        Fairport and Penfield.</p>
-      </article>
-      <article>
-        <header>
-          <h1>How much does it cost?</h1>
-        </header>
-        <p>Since we don't have a location, we're going to hold off on
-        setting prices.</p>
-        <p>In general, those who want to use the space on a daily
-        basis would pay a monthly membership fee. We also plan on
-        offering day passes that you can uses at your leisure. You
-        will be able to purchase day passes one at time or in
-        bulk.</p>
-        <p>We also plan on giving five free day passes to anyone who
-        wants to get a feel for coworking before purchasing a
-        membership or day passes.</p>
-        <p>Most importantly, members will be able to cancel their
-        membership at any time with no penalty. Day passes won't be
-        refundable.</p>
-      </article>
-    </section>
-    <footer class="group">
-      <div id="rochester-made">
-        <a href="http://rochestermade.com" title="Rochester Made">
-          <img src="http://rochestermade.com/media/images/rochester-made-dark-on-light.png"
-             alt="Rochester Made"
-             title="Rochester Made"
-             width="200">
-        </a>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">East Side Cowork</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#coworking">What's Coworking?</a>
+            </li>
+            <li>
+              <a href="#pricing">Pricing</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
       </div>
-    </footer>
-    <script type="text/javascript">
-      var _gauges = _gauges || [];
-      (function() {
-      var t   = document.createElement('script');
-      t.type  = 'text/javascript';
-      t.async = true;
-      t.id    = 'gauges-tracker';
-      t.setAttribute('data-site-id', '51aa3d39613f5d016a000001');
-      t.src = '//secure.gaug.es/track.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(t, s);
-      })();
+    </div>
+    <div id="bannerWrapper" style="background-color: #0B486B !important">
+      <div class="container">
+        <div class="starter-template" id="banner">
+          <h1 id="bannerHeading">
+            East Side Cowork
+          </h1>
+          <p class="lead">
+            Coworking space on Rochester's east side
+          </p>
+          <div>
+            <br>
+          </div>
+          <div class="pull-right">
+            <a href="http://igg.me/at/eastsidecowork/x/4440579" class="btn btn-primary"
+            id="signup">Sign Up!</a>
+          </div>
+          <p>
+          </p>
+          <p>
+          </p>
+          <div id="tagwrapper">
+            <span>Status: </span>
+            <span class="label label-warning" id="tag_location">Location: Looking</span>
+            <span class="label label-warning" id="tag_funding">Funding: Fundraising!</span>
+            <span class="label label-success" id="tag_bs">Excitement: Woo hoo!</span>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+    >
     </script>
-  </body>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
+    >
+    </script>
+    <div class="well">
+      <div class="container">
+	    <div class="alert alert-danger">
+	        <h3>
+	          <a href="http://igg.me/at/eastsidecowork/x/4440579"><img src="http://www.indiegogo.com/assets/igg_logo_color_web_black_v-f5230cf8460d2189a6eedcab748090c5.png" style="width:80px;border: 1px solid #000;position:relative; top:-20px;" class="pull-right"></a>
+	          Help make East Side Cowork a reality
+	        </h3>
+	        <p>
+	          Contribute at
+	          <a href="http://igg.me/at/eastsidecowork/x/4440579">http://igg.me/at/eastsidecowork/x/4440579</a>
+	        </p>
+		</div>
+        <h3>
+          The East Side (Cowork) Story
+        </h3>
+        <p>
+          Do you work at home? A coffee shop? Library? Or are you just sick of the
+          office doldrums. East Side Cowork (ESC) will be right for you. ESC will
+          be a coworking center located in the Fairport/Perinton/Penfield area. ESC
+          will offer our members a collaborative, engaging work environment that
+          provides an escape from the isolation of a work-at-home environment; one
+          that is less distracting than a coffee shop; and one that is more productive
+          than a hectic drive through rush hour traffic to a downtown location.
+        </p>
+        <p>
+          Members will enjoy:
+        </p>
+        <ul>
+          <li>
+            A stimulating environment with opportunities to socialize with other professionals
+          </li>
+          <li>
+            A professional atmosphere, with conference rooms, quiet areas, and space
+            for meeting with clients with none of the distractions of home or noise
+            of a coffee shop
+          </li>
+          <li>
+            Access to high-speed internet connections and standard office equipment
+            like printers and photocopiers
+          </li>
+          <li>
+            A business mailing address (plus usually someone to sign for packages
+            during business hours)
+          </li>
+          <li>
+            After work social time, “happy hours”, classes and events.
+          </li>
+          <li>
+            Members can host events at ESC.
+          </li>
+          <li>
+            Access to our library of books and reference materials
+          </li>
+          <li>
+            Free coffee! (and maybe some other refreshments)
+          </li>
+        </ul>
+	    <a name="coworking"></a>
+      </div>
+    </div>
+    <div class="container" style="margin-top:30px;">
+      <div>
+        <h3>
+          What is Coworking?
+        </h3>
+        <p>
+          Coworking is many things. The most practical aspect is having an office
+          to work in when you otherwise may not have one. From a financial point
+          of view, it is much cheaper to be a member of a coworking space than to
+          rent an office for yourself.
+        </p>
+        <p>
+          It's also about socializing. If you're someone who primarily works at
+          home, a coworking space gives you the opportunity to have the social interaction
+          you normally would have in a typical office.
+        </p>
+        <p>
+          In any case, it provides you a place to go if you need to get out of the
+          house and need a quiet place to work with high speed Internet and free
+          coffee.
+        </p>
+      </div>
+    </div>
+    <a name="pricing"></a>
+    <div class="container" style="margin-top:30px;">
+      <div>
+        <h3>
+          Pricing
+        </h3>
+        <p>
+          Pricing isn't set in stone yet, because we don't have a location selected
+          yet. The lease costs are going to be one of our biggest expenses. With
+          that caveat in mind, prices are planned as follows (subect to change):
+        </p>
+        <p>
+        </p>
+      </div>
+      <table class="table table-striped">
+        <tbody>
+          <tr>
+            <td>
+              Plan
+            </td>
+            <td>
+              Includes
+            </td>
+            <td>
+              Price
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Dedicated desk
+            </td>
+            <td>
+              24/7 access to facility, tables, your own desk, locking file cabinet,
+              lounge access, and free coffee
+            </td>
+            <td>
+              $200/mo &dagger;
+            </td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold;">
+              Monthly 24/7
+            </td>
+            <td style="font-weight:bold;">
+              24/7 access to facility, tables, lounge access, and free coffee<br/><em>Best value!</em>
+            </td>
+            <td style="font-weight:bold;">
+              $150/mo &dagger;
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Monthly
+            </td>
+            <td>
+              9-5 access to facility, tables, lounge access, and free coffee
+            </td>
+            <td>
+              $125/mo &dagger;
+            </td>
+          </tr>
+          <tr>
+            <td>
+              10-day pass
+            </td>
+            <td>
+              10 daily passes giving you 9-5 access to facility, tables, lounge access, and free coffee
+            </td>
+            <td>
+              $90
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Day pass
+            </td>
+            <td>
+              (1) Daily pass giving you 9-5 access to facility, tables, lounge access, and free coffee
+            </td>
+            <td>
+              $10
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-size:smaller;font-style:italic;">
+        &dagger; 24/7 access plans will require a one-time security deposit on the key/keycard.
+      </p>
+    <div class="alert alert-success">
+      <h3>
+        Sign up now to save!
+      </h3>
+      <p>Prices are subject to change. <span style="font-weight:bold;">Lock in these prices by contributing to our <a href="http://igg.me/at/eastsidecowork/x/4440579">Indiegogo campaign</a>!</span> All members will need to sign and adhere to to our acceptable use policy (AUP).</p>
+    </div>
+    <div class="container" style="margin-top:30px;">
+      <a name="contact"></a>
+      <div>
+        <h3>
+          Contact
+        </h3>
+        <p>
+          Twitter: <a href="twitter.com/eastsidecowork">@eastsidecowork</a> :: Email: <script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "ImlzlMLITbQbuH@FCmMD.TbC"
+  key = "u519HYwWJlFe0qz4jmNPTLBSRZ6xnoQV7DvIifrX2CkOh8Gsgy3KtbpaAUcdME"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {     
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>Click to email</a>")
+}
+//-->
+</script><noscript>Sorry, you need Javascript on to email me.</noscript>
+ :: Address: once we get one, we'll list it
+        </p>
+        <p>
+          &nbsp;
+        </p>
+      </div>
+    </div>
+</body>
 </html>
