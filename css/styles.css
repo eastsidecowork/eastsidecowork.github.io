@@ -1,0 +1,30 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+}
+#bannerWrapper: {
+  background-color: #0B486B !important;
+}
+#bannerHeading: {
+  float: left;
+  width: 70%;
+}
+#tagwrapper: {
+  margin-top: 20px;
+}
+#banner {
+  background-color: #0B486B;
+}
+#banner p, #banner h1, #banner div {
+  color: #fff;
+}
+#banner a {
+  background-color: #CFF09E;
+  color: #000;
+  border-color: #000;
+}
+".label": {
+  color: #000;
+}
