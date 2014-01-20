@@ -93,7 +93,7 @@ PARALLAX EFFECTS...........................1474
 
 		
 		#header-section {
-			background: #222 url(../img/background1a.jpg) bottom center repeat fixed;
+			background: #222 url(../img/background1b.jpg) bottom center repeat fixed;
 			height: 650px;
 			height: 650px;
 			width: 100%;
@@ -640,7 +640,7 @@ PARALLAX EFFECTS...........................1474
 		}
 		
 	#team-section 	{
-		background:#020403 url(../img/blured.jpg) 50% 0 fixed;
+		background:#020403 url(../img/aboutus.jpg) 50% 0 fixed;
 	}
 	##portfolio-section, #price-section 	{
 		background: #fff url(../img/png.png) top left repeat;
