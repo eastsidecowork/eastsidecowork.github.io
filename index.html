@@ -78,7 +78,7 @@
 	<div class="row-fluid">
 		<div class="wrap-hero">
 			<div class="hero-unit text-center">
-				<p style="background-color:rgba(255,255,255,0.75);font-weight: bold;text-shadow:none;" class="text-center main-color">Closed Monday February 17, 2014 for President's Day</p>
+				<p style="display:none;background-color:rgba(255,255,255,0.75);font-weight: bold;text-shadow:none;" class="text-center main-color">Closed Monday February 17, 2014 for President's Day</p>
 				<!--LOGO-->
 				<div class="logo">
 					<a title="East Side Cowork">
@@ -249,7 +249,7 @@
 <!-- TEAM ITEM--><div class="thumbnail span2">
             
 		<!-- IMAGE CONTAINER-->
-            <div class="sample project-item-image-container">
+            <div class="">
 				<img src="images/tim_poulsen.jpg" alt="" style="">
 			 </div> 
 		<!--END IMAGE CONTAINER-->
@@ -278,6 +278,14 @@
 		
 
 	</div><!--/CONTAINER-->
+
+<div class="container-fluid">
+	<a href="images/entryarea.jpg" rel="prettyPhoto[pp_gal]" title="A comfy spot to read, work, or chat"><img src="images/entryarea_th.jpg" width="150" height="113" alt="Entry area" /></a>
+	<a href="images/frontroom.jpg" rel="prettyPhoto[pp_gal]" title="Our front work room"><img src="images/frontroom_th.jpg" width="150" height="113" alt="Front room" /></a>
+	<a href="images/lightroom.jpg" rel="prettyPhoto[pp_gal]" title="Our 'bright' work room has large windows and lots of light"><img src="images/lightroom_th.jpg" width="150" height="113" alt="Bright room" /></a>
+	<a href="images/conferenceroom.jpg" rel="prettyPhoto[pp_gal]" title="Conference room with digital projector"><img src="images/conferenceroom_th.jpg" width="150" height="113" alt="Conference room" /></a>
+	<a href="images/breakroom.jpg" rel="prettyPhoto[pp_gal]" title="Kitchenette with coffee maker, fridge, microwave and comfortable seating"><img src="images/breakroom_th.jpg" width="150" height="113" alt="Breakroom" /></a>
+</div>
 </section><!-- /TEAM SECTION-->	
 
 
@@ -761,6 +769,8 @@ jQuery('#header-section').bind('inview', function (event, visible) {
 </script>
 
 <script type="text/javascript">
+ $("a[rel^='prettyPhoto']").prettyPhoto({theme: 'dark_square',slideshow:5000, autoplay_slideshow:true});
+
 /*
 		jQuery(function(){
 			jQuery('#tweets').tweetable({
