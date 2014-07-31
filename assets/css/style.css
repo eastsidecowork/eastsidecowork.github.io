@@ -93,9 +93,8 @@ PARALLAX EFFECTS...........................1474
 
 		
 		#header-section {
-			background: #222 url(../img/background1b.jpg) bottom center repeat fixed;
-			height: 650px;
-			height: 650px;
+			background: #222 url(../img/closed_sm.jpg) bottom center no-repeat fixed;
+			height: 700px;
 			width: 100%;
 			max-width:100%;
 			z-index: -999;
